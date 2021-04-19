@@ -40,11 +40,67 @@ main > h1 {
     color: deepskyblue;
 }
 
-.publishing-date {
+.credits{
     font-size: 11px;
+}
+
+.credits2, .publishing-date {
+    margin-bottom: 15px;
+    font-size: 11px;
+}
+
+.important {
+    background-color: yellow;
+}
+
+ul {
+    padding: 1vw;
+    list-style-type: initial;
+}
+
+table {
+    text-align: left;
+    border-collapse: collapse;
     margin-bottom: 15px;
 }
 
-.credits {
-    font-size: 11px;
+.title {
+    background-color:#4ea0ff;
+    color: white;
+}
+
+td {
+    width: 24%;
+}
+
+.long {
+    width: 48%;
+}
+
+tr:nth-child(even) {
+    background-color: lightblue;
+}
+
+.recommendations {
+    color: grey;
+    margin: 20px 0 5px;
+}
+
+.img1, .img2 {
+    margin: 0;
+    padding: 10px;
+    width: 180px;
+    height: 130px;
+    color: white;
+    font-weight: bold;
+}
+
+.img1 {
+    background: url("../img/monitor.jpg") no-repeat;
+    background-size: contain;
+}
+
+.img2 {
+    background: url("../img/graph.jpg") no-repeat;
+    background-size: contain;
 }
