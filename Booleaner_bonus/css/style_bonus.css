@@ -27,7 +27,7 @@ header {
 }
 
 .logo {
-    height: 100px;
+    height: 100px;  /*Fixed logo dimensions to help placing*/
     width: 150px;
     text-align: left;
 }
