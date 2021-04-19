@@ -1,0 +1,111 @@
+*{
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.banner-container {
+    width: 100vw;
+    height: 8vh;
+}
+
+.logo-container {
+    width: 45vw;
+    height: 8vh;
+}
+
+.main-container {
+    width: 44vw;
+    height: 92vh;
+
+}
+
+header {
+    background: #4ea0ff url("../img/pattern.png") repeat;
+    background-size: 15%;
+    height: 100%;
+    width: 100%;
+}
+
+.logo {
+    height: 100px;
+    width: 150px;
+    text-align: left;
+}
+
+main > h1 {
+    margin: 10px 0px 5px;
+    line-height: 30px;
+}
+
+.author, .publishing-date{
+    color: grey;
+}
+
+.author > span {
+    color: deepskyblue;
+}
+
+.credits{
+    font-size: 11px;
+}
+
+.credits2, .publishing-date {
+    margin-bottom: 15px;
+    font-size: 11px;
+}
+
+.important {
+    background-color: yellow;
+}
+
+ul {
+    padding: 1vw;
+    list-style-type: initial;
+}
+
+table {
+    text-align: left;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+}
+
+.title {
+    background-color:#4ea0ff;
+    color: white;
+}
+
+td {
+    width: 24%;
+}
+
+.long {
+    width: 48%;
+}
+
+tr:nth-child(even) {
+    background-color: lightblue;
+}
+
+.recommendations {
+    color: grey;
+    margin: 20px 0 5px;
+}
+
+.img1, .img2 {
+    margin: 0;
+    padding: 10px;
+    width: 180px;
+    height: 130px;
+    color: white;
+    font-weight: bold;
+}
+
+.img1 {
+    background: url("../img/monitor.jpg") no-repeat;
+    background-size: contain;
+}
+
+.img2 {
+    background: url("../img/graph.jpg") no-repeat;
+    background-size: contain;
+}
