@@ -1,0 +1,50 @@
+*{
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.banner-container {
+    width: 45vw;
+    height: 8vh;
+}
+
+.main-container {
+    width: 44vw;
+    height: 92vh;
+
+}
+
+header {
+    background: #4ea0ff url("../img/pattern.png") repeat;
+    background-size: 35%;
+    height: 100%;
+    width: 100%;
+}
+
+header > img {
+    height: 100%;
+    width: 20%;
+    padding: 25px 5px 0px;
+}
+
+main > h1 {
+    margin: 10px 0px 5px;
+    line-height: 30px;
+}
+
+.author, .publishing-date{
+    color: grey;
+}
+
+.author > span {
+    color: deepskyblue;
+}
+
+.publishing-date {
+    font-size: 11px;
+    margin-bottom: 15px;
+}
+
+.credits {
+    font-size: 11px;
+}
